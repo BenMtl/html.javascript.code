@@ -17,6 +17,7 @@ utility for reading and writing across tcp/udp network connections.  I've only
 used it for debugging myself.
 
 $ netcat 127.0.0.1 1337
+$ nc -lvp 1337 |hexdump -C
 
 You should see:
 > Echo server

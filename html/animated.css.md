@@ -1,0 +1,4 @@
+- https://demo.themevault.net/?src=bubble-login-form&goback=bubble-login-form but open developer tools to see the page, those folks are silly trying to avoid you from downloading css and html code (ah ah ah)
+- https://codepen.io/mrspok407/pen/NRxBWa
+- https://codepen.io/deathfang/pen/WxNVoq
+- http://hold.ncodeart.com/nc/l1-index-5.html

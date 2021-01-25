@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Page Title</title>
+    <script>
+        customElements.define('info-custom', class extends HTMLElement {
+            constructor() {
+                super();
+            }
+        });
+    </script>
+    <style>
+        info-custom {
+            color: red;
+            display: none;
+        }
+    </style>
+    
+</head>
+<body>
+Before
+<info-custom>
+    <p>
+        something in the middle in a custom element
+    </p>
+</info-custom>
+After
+
+</body>
+</html>

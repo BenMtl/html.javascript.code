@@ -1,0 +1,21 @@
+<html>
+<body>
+    <i class="cmdCard-header cmdCard-header-popup bi bi-chat-right-text" 
+       id="title-info-card_c0r6"
+       data-bs-content="<pre>nova show $INSTANCE   # Same command, slightly different format</pre>"
+       data-bs-toggle="popover"
+       data-bs-placement="top"
+       data-bs-custom-class="card-popover"
+       aria-label="additional information"></i>
+
+    <script>
+            new bootstrap.Popover($('#title-info-card_c0r6'), { html: true });
+            $('#title-info-card_c0r6').on('shown.bs.popover', function () {   // Autohide, 10s
+                var $pop = $(this);
+                setTimeout(function () {
+                    $pop.popover('hide');
+                }, 10000);
+            });
+    </script>
+</body>
+</html>
